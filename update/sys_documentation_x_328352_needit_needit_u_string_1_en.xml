@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_string_1" label="Request type" language="en" table="x_328352_needit_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>Request type</label>
+            <language>en</language>
+            <name>x_328352_needit_needit</name>
+            <plural>Request types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-26 23:43:14</sys_created_on>
+            <sys_id>2cd02d77db543300f77b9b81ca96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request type</sys_name>
+            <sys_package display_value="NeedIt" source="x_328352_needit">b8221096db103300f77b9b81ca9619ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">b8221096db103300f77b9b81ca9619ca</sys_scope>
+            <sys_update_name>sys_documentation_x_328352_needit_needit_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-26 23:43:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

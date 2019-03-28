@@ -7,36 +7,36 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint>List of all NeedIt records in the database</hint>
+        <hint>Defines the tool tip that appears when a user points to the module name</hint>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>NEW</link_type>
         <map_page display_value="United States locations">25d065220a0a0bb30098bec50254c18e</map_page>
-        <mobile_title>NeedIts</mobile_title>
+        <mobile_title>Create New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_328352_needit_needit</name>
-        <order>200</order>
-        <override_menu_roles>false</override_menu_roles>
+        <order>100</order>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_328352_needit.needit_user</roles>
+        <roles>user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-22 02:26:27</sys_created_on>
+        <sys_created_on>2019-03-22 04:01:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7e36941edb103300f77b9b81ca9619df</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_id>621b20d2db503300f77b9b81ca9619fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create New</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_328352_needit">b8221096db103300f77b9b81ca9619ca</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">b8221096db103300f77b9b81ca9619ca</sys_scope>
-        <sys_update_name>sys_app_module_7e36941edb103300f77b9b81ca9619df</sys_update_name>
+        <sys_update_name>sys_app_module_621b20d2db503300f77b9b81ca9619fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 18:37:55</sys_updated_on>
+        <sys_updated_on>2019-03-22 04:11:17</sys_updated_on>
         <timeline_page/>
-        <title>All</title>
+        <title>Create New</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt onLoad Example</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var minutes = 1000 * 60;
+	var hours = minutes * 60;
+	var days = hours * 24;
+	var years = days * 365;
+	var t = Date.now();
+	var d = new Date();
+	
+	/*
+   //Type appropriate comment here, and begin script below
+   alert("Welcom to the ServiceNow - Richmond Test Environment. \n\nToday: " +d  +"\n\n I am stay at the file of Studio \n\n Client Development \n\n Client Scripts \n\n needIt onLoad Example" + "\n\n g_user.firstName = " + g_user.name + "\n\n g_form.getValue('short_description') = " + g_form.getValue('short_description')+ "\n\n g_form.getValue('number') = " + g_form.getValue('number'));
+	
+	*/
+	
+	try{
+		helloWorld();
+	}
+	 catch(err){
+		 jslog('A JavaScript runtime error occurred: '+ err.message);
+	 }
+	
+	
+	
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 18:28:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d7e8f9bdb903300f77b9b81ca961942</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_328352_needit">b8221096db103300f77b9b81ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">b8221096db103300f77b9b81ca9619ca</sys_scope>
+        <sys_update_name>sys_script_client_1d7e8f9bdb903300f77b9b81ca961942</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-27 01:18:13</sys_updated_on>
+        <table>x_328352_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

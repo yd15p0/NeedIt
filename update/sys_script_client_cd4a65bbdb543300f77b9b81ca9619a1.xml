@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Requested for to the currently logged in user for new records. Users can change the field value</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var x = 7;
+ 	jslog("This message is from jslog().");   
+ 	jslog("The value of x = " + x); 
+ 	jslog("The NeedIt State value = " + g_form.getValue('state'));
+ 	jslog("The currently logged in user is " + g_user.getFullName() + ".");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-27 00:26:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd4a65bbdb543300f77b9b81ca9619a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_328352_needit">b8221096db103300f77b9b81ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">b8221096db103300f77b9b81ca9619ca</sys_scope>
+        <sys_update_name>sys_script_client_cd4a65bbdb543300f77b9b81ca9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-27 00:42:28</sys_updated_on>
+        <table>x_328352_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
